@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer type="module"></script>
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="alert hide">
+    <h1 id=error-modal>Valor invalido ou campo nao preenchido</h1>
+  </div>
+
+  <main>
+      
+    <img src="img/academia-1024x683.jpg" alt="">
+
+    <form>
+      <h1>Calculadora IMC:</h1>
+
+      <label for="i1">Peso (Kg)</label>
+      <input type="text" id="peso">
+
+      <label for="i2">Altura (Cm)</label>
+      <input type="text" id="altura">
+
+      <div class="result">
+        <button id="btn-calc" type="submit">Calcular</button>
+        <h1>IMC:<span id="total"></span></h1>
+      </div>
+
+    </form>
+
+  </main>
+
+  <div class="modal-more-info hide">
+    
+        <h3>Seu Estado Atual:</h3>
+        <h1 id="Estado"></h1>
+        <p id="more-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, cum doloribus voluptas labore reiciendis tempore quod iste quasi commodi consectetur, ab repudiandae alias magnam ut tenetur dolore. Hic, eos ullam.</p>
+      
+      <button id="close-more-info">Fechar</button>
+  </div>
+
+</body>
+</html>
